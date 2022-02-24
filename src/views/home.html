@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/home.css">
+    <title>Home</title>
+</head>
+<body>
+    <div class="container">
+        <div class="users">
+            <h1 class="user_text">Users</h1>
+            <!-- <h2 class="user_name">Sarvar</h2>
+                <h2 class="user_name">Shahzod</h2>
+                <h2 class="user_name">Oybek</h2>
+                <h2 class="user_name">Bilol</h2> -->
+            </div>
+            <div class="right_div">
+                <div class="up_div">
+                    <button class="todo_append">+</button>
+                    <!-- <h1>l</h1> -->
+                    <button class="log_out_btn">Log out</button>
+                </div>
+                <div class="todo_doing_done">
+                    <h2>TODO</h2>
+                    <h2>DOING</h2>
+                    <h2>DONE</h2>
+                </div>
+                <div class="todo_information">
+                    <ul class="first_ul">
+                        <li class="todoTrue">
+                            <ul class="second_ul">
+                                <!-- <li class="todo_li">
+                                    <p>-----------------------------------------------------------</p>
+                                </li> -->
+                                <!-- <li class="todo_li">
+                                    <h2>Title</h2>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime sequi dolores hic ea corrupti ipsam accusantium libero quod autem! Laudantium.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime sequi dolores hic ea corrupti ipsam accusantium libero quod autem! Laudantium</p>
+                                    <select name="" class="select_todo">
+                                        <option value="todo">Todo</option>
+                                        <option value="doing">Doing</option>
+                                        <option value="done">Done</option>
+                                    </select>
+                                </li> -->
+                            </ul>
+                        </li>
+                        <li class="doingTrue">
+                            <ul class="middileUl">
+                                <!-- <li class="todo_li">
+                                    <p>-----------------------------------------------------------</p>
+                                </li> -->
+                                <!-- <li class="todo_li">-----------------------------------------------------------</li> -->
+                                <!-- <li class="todo_li">
+                                    <h2>Title</h2>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime sequi dolores hic ea corrupti ipsam accusantium libero quod autem! Laudantium.</p>
+                                    <select name="" class="select_todo">
+                                        <option value="todo">Todo</option>
+                                        <option value="doing">Doing</option>
+                                        <option value="done">Done</option>
+                                    </select>
+                                </li> -->
+                                <!-- <li class="todo_li">
+                                    <h2>Title</h2>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime sequi dolores hic ea corrupti ipsam accusantium libero quod autem! Laudantium.</p>
+                                    <select name="" class="select_todo">
+                                        <option value="todo">Todo</option>
+                                        <option value="doing">Doing</option>
+                                        <option value="done">Done</option>
+                                    </select>
+                                </li> -->
+                            </ul>
+                        </li>
+                        <li class="doneTrue">
+                            <ul class="ulli">
+                                <!-- <li class="todo_li">
+                                    <p>-----------------------------------------------------------</p>
+                                </li> -->
+                                <!-- <li class="todo_li">-----------------------------------------------------------</li> -->
+                                <!-- <li class="todo_li">
+                                    <h2>Title</h2>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime sequi dolores hic ea corrupti ipsam accusantium libero quod autem! Laudantium.</p>
+                                    <select name="" class="select_todo">
+                                        <option value="todo">Todo</option>
+                                        <option value="doing">Doing</option>
+                                        <option value="done">Done</option>
+                                    </select>
+                                </li>
+                                <li class="todo_li">
+                                    <h2>Title</h2>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime sequi dolores hic ea corrupti ipsam accusantium libero quod autem! Laudantium.</p>
+                                    <select name="" class="select_todo">
+                                        <option value="todo">Todo</option>
+                                        <option value="doing">Doing</option>
+                                        <option value="done">Done</option>
+                                    </select>
+                                </li>
+                                <li class="todo_li">
+                                    <h2>Title</h2>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime sequi dolores hic ea corrupti ipsam accusantium libero quod autem! Laudantium.</p>
+                                    <select name="" class="select_todo">
+                                        <option value="todo">Todo</option>
+                                        <option value="doing">Doing</option>
+                                        <option value="done">Done</option>
+                                    </select>
+                                </li>
+                            </ul> -->
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <script>
+            let local = window.localStorage.getItem('userData')
+            if (!local) {
+                window.location.assign('/login')
+            }
+        </script>
+        <script src="./js/main.js"></script>
+        <!-- <script src="./js/login.js"></script>
+        <script src="./js/register.js"></script>
+        <script src="./js/todo_append.js"></script> -->
+    </body>
+    </html>

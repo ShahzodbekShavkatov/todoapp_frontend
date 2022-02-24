@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    border: rgb(0, 15, 148) solid 2px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.users {
+    border-right: rgb(0, 15, 148) solid 2px;
+    background-color: rgb(35, 35, 250);
+    width: 500px;
+    height: 600px;
+    overflow-y: auto;
+}
+
+.up_div {
+    width: 1083px;
+    display: flex;
+}
+
+.right_div {
+    background-color: rgb(35, 35, 250);
+    height: 600px;
+}
+
+.todo_append {
+    background-color: rgb(1, 156, 14);
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    margin-left: 5px;
+    margin-top: 5px;
+    width: 40px;
+}
+
+.log_out_btn {
+    background-color: rgb(1, 156, 14);
+    width: 80px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: 5px;
+}
+
+.todo_doing_done {
+    display: flex;
+}
+
+.todo_doing_done :nth-child(1) {
+    margin-left: 100px;
+    color: white;
+}
+
+.todo_doing_done :nth-child(2) {
+    margin-left: 300px;
+    color: white;
+}
+
+.todo_doing_done :nth-child(3) {
+    margin-left: 300px;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.first_ul {
+    display: flex;
+    border-top: solid rgb(1, 8, 110) 2px;
+    margin-top: -10px;
+    height: 515px;
+    overflow-y: auto;
+}
+
+.todo_li {
+    width: 300px;
+    border: rgb(20, 35, 243) 2px solid;
+    background-color: rgb(2, 46, 179);
+    margin-bottom: 20px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    color: white;
+}
+
+.select_todo {
+    margin-left: 220px;
+    background-color: rgb(1, 156, 14);
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.user_text {
+    padding-left: 70px;
+    padding-top: 25px;
+    color: rgb(255, 255, 255);
+    margin: 0px 0px;
+    background-color: rgb(2, 46, 179);
+    border-bottom: solid rgb(1, 8, 110) 2px;
+    height: 88px;
+}
+
+.user_name {
+    padding-left: 10px;
+    padding-top: 10px;
+    width: auto;
+    height: 50px;
+    border-bottom: solid rgb(1, 8, 110) 2px;
+    margin: 0px 0px;
+    background-color: rgb(2, 46, 179);
+    color: white;
+}
+
+.user_name:hover {
+    background-color: rgb(58, 103, 238);
+}
+
+.second_ul {
+    margin-left: -25px;
+}

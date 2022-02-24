@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/register.css">
+    <title>Register</title>
+</head>
+<body>
+    <div class="continer">
+        <form id="userAdd">
+            <h1>Register</h1>
+            <div class="inp">
+                <img width="30" src="https://www.svgrepo.com/show/219280/login.svg" alt="login">
+                <input type="text" placeholder="Login" id="login1" autocomplete="off" required>
+            </div>
+            <div class="inp">
+                <img width="30" src="https://www.svgrepo.com/show/140300/password.svg" alt="klyuch">
+                <input type="password" placeholder="password" id="parol1" required>
+            </div>
+            <div class="inp">
+                <img width="30" src="https://www.svgrepo.com/show/101634/gender.svg" alt="select">
+                <select id="select">
+                    <option value="male">Erkak</option>
+                    <option value="famale">Ayol</option>
+                </select>
+            </div>
+            <div class="inp">
+                <img width="30" src="https://www.svgrepo.com/show/217721/calendar-date.svg" alt="login">
+                <input type="number" min="1936" max="2021" placeholder="birthday" id="birthday" autocomplete="off" required>
+            </div>
+            <div class="reg">
+                <a href="/login">Login</a> 
+                <button id="loginBtn">Register</button>
+            </div>
+        </form>
+    </div>
+    <script>
+        let local = window.localStorage.getItem('userData')
+        if (local) {
+            window.location.assign('/')
+        }
+    </script>
+    <!-- <script src="./js/main.js"></script>
+    <script src="./js/login.js"></script> -->
+    <script src="./js/register.js"></script>
+    <!-- <script src="./js/todo_append.js"></script> -->
+</script>
+</body>
+</html>
